@@ -12,7 +12,7 @@ export class ExampleAppComponent implements OnInit {
   todoList = [
     { name: 'Task1', id: 1, done: true },
     { name: 'Task2', id: 2, done: false },
-    { name: 'Task3', id: 3, done: false },
+    { name: 'Task3', id: 3, done: false }
   ];
   newTodo = '';
   CreateTodo(): void {
